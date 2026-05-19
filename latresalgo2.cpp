@@ -206,8 +206,8 @@ void deletekaryawan(Karyawan* &root, int nip_hapus) {
 			root->divisi = succ->divisi;
 			root->sedangCuti = succ->sedangCuti;
 			deletekaryawan(root->anak_kanan, succ->nip);
-		}
-	} cout << "Data karyawan berhasil dihapus\n";
+		} cout << "Data karyawan berhasil dihapus\n";
+	} 
 } 
 
 void pause() {
